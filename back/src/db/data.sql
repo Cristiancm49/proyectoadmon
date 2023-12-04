@@ -1,3 +1,4 @@
+-- Active: 1701666164627@@127.0.0.1@5432@caqtur
 -- Insertar datos en la tabla metodo_pago
     INSERT INTO metodo_pago (metodo_pago) VALUES
     ('Efectivo'),

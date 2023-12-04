@@ -1,5 +1,4 @@
 const { Model, DataTypes } = require('sequelize');
-
 class Transporte extends Model {
     static config(sequelize) {
         return {
@@ -31,5 +30,8 @@ const TransporteSchema = {
         type: DataTypes.FLOAT
     }
 }
+
+
+
 
 module.exports = { Transporte, TransporteSchema };

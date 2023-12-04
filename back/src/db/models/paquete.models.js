@@ -1,4 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
+const { Transporte } = require('./transporte.models');
+
 
 class Paquete extends Model {
     static config(sequelize) {
@@ -55,7 +57,7 @@ const PaqueteSchema = {
     transporte_id: {
         type: DataTypes.INTEGER,
         references: {
-            model: 'transporte',
+            model: Transporte,
             key: 'transporte_id'
         }
     },
@@ -67,5 +69,6 @@ const PaqueteSchema = {
         }
     }
 }
+
 
 module.exports = { Paquete, PaqueteSchema };
