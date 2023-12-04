@@ -11,7 +11,7 @@ const AppRoutes = () => {
     { path: '/', element: <Home /> },
     { path: '/reserva/:id', element: <Reserva />},
     { path: '/*', element: <NotFound /> },
-    { path: '/empresa', element: <Empresa /> }
+    { path: '/empresa/id', element: <Empresa /> }
     
   ])
 
