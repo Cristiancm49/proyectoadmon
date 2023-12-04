@@ -29,7 +29,7 @@ const Card = (data) => {
         
         <span className='text-lg font-medium'>Precioo    ${data.data.precio_por_persona}</span>
       </div>
-      <ReservationForm paqueteId={paqueteId} />
+      
     </Link>
   );
 };
